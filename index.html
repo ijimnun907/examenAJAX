@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Precios de Gasolinera</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Precios de Gasolinera</h1>
+      <form id="gasolineraForm">
+        <div class="form-group" id="divComunidad">
+          <label for="gasolina95">Comunidad Autónoma</label>
+        </div>
+        <div class="form-group" id="divProvincia">
+          <label for="gasolina98">Provincia</label>
+        </div>
+        <div class="form-group" id="divLocalidad">
+          <label for="diesel">Localidad</label>
+        </div>
+        <div class="form-group">
+          <button type="submit">Enviar</button>
+        </div>
+      </form>
+
+      <div class="table-container">
+        <h2>Precios Actuales</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Estación</th>
+              <th>Dirección</th>
+              <th>Horario</th>
+              <th>Gasolina95</th>
+              <th>Gasolina98</th>
+              <th>GasóleoA</th>
+              <th>GasóleoA+</th>
+              <th>GasóleoB</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
